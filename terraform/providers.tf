@@ -8,7 +8,7 @@ terraform {
     resource_group_name  = "main-infra"
     storage_account_name = "mydemotfstate"
     container_name       = "tfstate"
-    key                  = "terraform-base.tfstate"
+    key                  = "5yTJAsUWSdvdLEOSo6rFvuKQyLcHNW48dMc6W+DF336fF088lUCoKq3KYBReyztXsxvfrMbMM1qg+AStYxYXUg=="
   }
   required_providers {
     azurerm = {
