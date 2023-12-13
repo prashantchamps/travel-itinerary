@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = "${var.app_name}app-rg"
+  name     = "main-infra"
   location = var.location
 }
 
