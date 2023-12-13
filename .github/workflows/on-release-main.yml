@@ -36,7 +36,6 @@ jobs:
         id: init
         run: |
           set -a 
-          source ../.env.backend
           terraform init \
             -backend-config="resource_group_name=main-infra" \
             -backend-config="storage_account_name=mydemotfstate"
