@@ -1,8 +1,7 @@
 name: On Release Main
 
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
 
 jobs:
   terraform:
