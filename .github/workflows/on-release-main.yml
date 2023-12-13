@@ -38,8 +38,8 @@ jobs:
           set -a 
           source ../.env.backend
           terraform init \
-            -backend-config="resource_group_name=$TF_VAR_state_resource_group_name" \
-            -backend-config="storage_account_name=$TF_VAR_state_storage_account_name"
+            -backend-config="resource_group_name=main-infra" \
+            -backend-config="storage_account_name=mydemotfstate"
 
       - name: Terraform validate
         id: validate
