@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = "main-infra"
+  name     = "hobbes"
   location = var.location
 }
 
