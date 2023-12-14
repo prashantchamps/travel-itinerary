@@ -2,7 +2,7 @@ name: On Release Main
 
 on:
   workflow_run:
-    workflows: [Upload data]
+    workflows: [AzureLoginSample]
     types:
       - completed
 
