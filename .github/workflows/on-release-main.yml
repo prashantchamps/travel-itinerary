@@ -7,6 +7,8 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
+    needs:
+      - democli
     permissions:
       id-token: write
       contents: read
